@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # 1. Vervang de URL door de naam van je videobestand
-video_pad = "PeopleTown.mp4" 
+video_pad = "parkourredtape.mp4" 
 cap = cv2.VideoCapture(video_pad)
 
 if not cap.isOpened():
